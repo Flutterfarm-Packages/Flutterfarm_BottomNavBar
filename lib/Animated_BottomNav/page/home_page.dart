@@ -58,7 +58,7 @@ class _HomePageContainerState extends State<HomePageContainer> {
   SizedBox iconBtn(int i) {
     bool isActive = selectBtn == i ? true : false;
     var height = isActive ? 60.0 : 0.0;
-    var width = isActive ? 50.0 : 0.0;
+    var width = isActive ? 50.1 : 0.0;
     return SizedBox(
       width: 75.0,
       child: Stack(
